@@ -1,0 +1,83 @@
+  [
+    {
+      "id": 1,
+      "airline": "대한항공",
+      "icon": "/icons/korean-air.png",
+      "start": "서울",
+      "destination": "뉴욕",
+      "date": "2024-12-10",
+      "time": "10:00"
+    },
+    {
+      "id": 2,
+      "airline": "아시아나항공",
+      "icon": "/icons/asiana-airlines.png",
+      "start": "서울",
+      "destination": "도쿄",
+      "date": "2024-12-10",
+      "time": "12:00"
+    },
+    {
+      "id": 3,
+      "airline": "제주항공",
+      "icon": "/icons/jeju-air.png",
+      "start": "서울",
+      "destination": "부산",
+      "date": "2024-12-11",
+      "time": "15:00"
+    },
+    {
+      "id": 4,
+      "airline": "진에어",
+      "icon": "/icons/jin-air.png",
+      "start": "부산",
+      "destination": "서울",
+      "date": "2024-12-12",
+      "time": "08:00"
+    },
+    {
+      "id": 5,
+      "airline": "티웨이항공",
+      "icon": "/icons/tway-air.png",
+      "start": "서울",
+      "destination": "파리",
+      "date": "2024-12-13",
+      "time": "18:00"
+    },
+    {
+      "id": 6,
+      "airline": "에어부산",
+      "icon": "/icons/air-busan.png",
+      "start": "도쿄",
+      "destination": "서울",
+      "date": "2024-12-14",
+      "time": "09:00"
+    },
+    {
+      "id": 7,
+      "airline": "진에어",
+      "icon": "/icons/air-busan.png",
+      "start": "도쿄",
+      "destination": "서울",
+      "date": "2024-12-14",
+      "time": "09:00"
+    },
+    {
+      "id": 8,
+      "airline": "진에어",
+      "icon": "/icons/air-busan.png",
+      "start": "도쿄",
+      "destination": "서울",
+      "date": "2024-12-11",
+      "time": "09:00"
+    },
+    {
+      "id": 9,
+      "airline": "예시",
+      "icon": "/icons/air-busan.png",
+      "start": "도쿄",
+      "destination": "서울",
+      "date": "2024-12-11",
+      "time": "03:00"
+    }
+  ]

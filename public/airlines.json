@@ -1,83 +1,1310 @@
-  [
-    {
-      "id": 1,
-      "airline": "대한항공",
-      "icon": "/icons/korean-air.png",
-      "start": "서울",
-      "destination": "뉴욕",
-      "date": "2024-12-10",
-      "time": "10:00"
-    },
-    {
-      "id": 2,
-      "airline": "아시아나항공",
-      "icon": "/icons/asiana-airlines.png",
-      "start": "서울",
-      "destination": "도쿄",
-      "date": "2024-12-10",
-      "time": "12:00"
-    },
-    {
-      "id": 3,
-      "airline": "제주항공",
-      "icon": "/icons/jeju-air.png",
-      "start": "서울",
-      "destination": "부산",
-      "date": "2024-12-11",
-      "time": "15:00"
-    },
-    {
-      "id": 4,
-      "airline": "진에어",
-      "icon": "/icons/jin-air.png",
-      "start": "부산",
-      "destination": "서울",
-      "date": "2024-12-12",
-      "time": "08:00"
-    },
-    {
-      "id": 5,
-      "airline": "티웨이항공",
-      "icon": "/icons/tway-air.png",
-      "start": "서울",
-      "destination": "파리",
-      "date": "2024-12-13",
-      "time": "18:00"
-    },
-    {
-      "id": 6,
-      "airline": "에어부산",
-      "icon": "/icons/air-busan.png",
-      "start": "도쿄",
-      "destination": "서울",
-      "date": "2024-12-14",
-      "time": "09:00"
-    },
-    {
-      "id": 7,
-      "airline": "진에어",
-      "icon": "/icons/air-busan.png",
-      "start": "도쿄",
-      "destination": "서울",
-      "date": "2024-12-14",
-      "time": "09:00"
-    },
-    {
-      "id": 8,
-      "airline": "진에어",
-      "icon": "/icons/air-busan.png",
-      "start": "도쿄",
-      "destination": "서울",
-      "date": "2024-12-11",
-      "time": "09:00"
-    },
-    {
-      "id": 9,
-      "airline": "예시",
-      "icon": "/icons/air-busan.png",
-      "start": "도쿄",
-      "destination": "서울",
-      "date": "2024-12-11",
-      "time": "03:00"
-    }
-  ]
+[
+  {
+    "id": "7C1101",
+    "airline": "제주항공",
+    "time": "08:10",
+    "destination": "NRT",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.10.27~2025.03.29",
+    "start": "인천공항"
+  },
+  {
+    "id": "7C1103",
+    "airline": "제주항공",
+    "time": "10:35",
+    "destination": "NRT",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.10.27~2025.03.29",
+    "start": "인천공항"
+  },
+  {
+    "id": "7C1105",
+    "airline": "제주항공",
+    "time": "11:50",
+    "destination": "NRT",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "N", "N", "Y", "Y", "N"],
+    "period": "2024.11.08~2025.03.29",
+    "start": "인천공항"
+  },
+  {
+    "id": "7C1107",
+    "airline": "제주항공",
+    "time": "14:50",
+    "destination": "NRT",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.10.27~2024.12.21",
+    "start": "인천공항"
+  },
+  {
+    "id": "7C1107",
+    "airline": "제주항공",
+    "time": "14:50",
+    "destination": "NRT",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2025.01.01~2025.03.29",
+    "start": "인천공항"
+  },
+  {
+    "id": "7C1121",
+    "airline": "제주항공",
+    "time": "16:20",
+    "destination": "NRT",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.10.27~2025.03.29",
+    "start": "인천공항"
+  },
+  {
+    "id": "AF7904",
+    "airline": "에어 프랑스",
+    "time": "13:35",
+    "destination": "NRT",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.10.27~2025.03.29",
+    "start": "인천공항"
+  },
+  {
+    "id": "AM6700",
+    "airline": "아에로멕시코",
+    "time": "18:45",
+    "destination": "NRT",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.10.27~2025.03.29",
+    "start": "인천공항"
+  },
+  {
+    "id": "AM6705",
+    "airline": "아에로멕시코",
+    "time": "13:35",
+    "destination": "NRT",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.10.27~2025.03.29",
+    "start": "인천공항"
+  },
+  {
+    "id": "AM6750",
+    "airline": "아에로멕시코",
+    "time": "09:55",
+    "destination": "NRT",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.11.27~2025.03.29",
+    "start": "인천공항"
+  },
+  {
+    "id": "BX164",
+    "airline": "에어부산",
+    "time": "07:35",
+    "destination": "NRT",
+    "terminal": "T1",
+    "weekdays": ["N", "Y", "Y", "Y", "N", "Y", "Y"],
+    "period": "2024.10.27~2025.03.29",
+    "start": "인천공항"
+  },
+  {
+    "id": "BX166",
+    "airline": "에어부산",
+    "time": "15:05",
+    "destination": "NRT",
+    "terminal": "T1",
+    "weekdays": ["Y", "N", "N", "Y", "Y", "N", "Y"],
+    "period": "2024.10.27~2025.03.28",
+    "start": "인천공항"
+  },
+  {
+    "id": "KE907",
+    "airline": "대한항공",
+    "time": "10:40",
+    "destination": "LHR",
+    "terminal": "T2",
+    "weekdays": ["N", "Y", "N", "Y", "Y", "N", "Y"],
+    "period": "2024.12.13~2024.12.19",
+    "start": "인천공항"
+  },
+  {
+    "id": "KE907",
+    "airline": "대한항공",
+    "time": "10:40",
+    "destination": "LHR",
+    "terminal": "T2",
+    "weekdays": ["Y", "N", "Y", "N", "N", "Y", "N"],
+    "period": "2024.12.14~2024.12.18",
+    "start": "인천공항"
+  },
+  {
+    "id": "KE907",
+    "airline": "대한항공",
+    "time": "10:40",
+    "destination": "LHR",
+    "terminal": "T2",
+    "weekdays": ["N", "Y", "N", "N", "Y", "N", "Y"],
+    "period": "2024.12.20~2024.12.24",
+    "start": "인천공항"
+  },
+  {
+    "id": "KE907",
+    "airline": "대한항공",
+    "time": "10:40",
+    "destination": "LHR",
+    "terminal": "T2",
+    "weekdays": ["Y", "N", "Y", "N", "N", "Y", "N"],
+    "period": "2024.12.21~2024.12.25",
+    "start": "인천공항"
+  },
+  {
+    "id": "VS5501",
+    "airline": "버진 애틀란틱항공",
+    "time": "10:40",
+    "destination": "LHR",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.12.26~2025.03.29",
+    "start": "인천공항"
+  },
+  {
+    "id": "OZ521",
+    "airline": "아시아나항공",
+    "time": "12:25",
+    "destination": "LHR",
+    "terminal": "T1",
+    "weekdays": ["Y", "N", "Y", "N", "Y", "Y", "Y"],
+    "period": "2024.10.27~2025.03.29",
+    "start": "인천공항"
+  },
+  {
+    "id": "KE907",
+    "airline": "대한항공",
+    "time": "10:40",
+    "destination": "LHR",
+    "terminal": "T2",
+    "weekdays": ["N", "Y", "N", "Y", "Y", "N", "Y"],
+    "period": "2024.12.13~2024.12.19",
+    "start": "인천공항"
+  },
+  {
+    "id": "KE907",
+    "airline": "대한항공",
+    "time": "10:40",
+    "destination": "LHR",
+    "terminal": "T2",
+    "weekdays": ["Y", "N", "Y", "N", "N", "Y", "N"],
+    "period": "2024.12.14~2024.12.18",
+    "start": "인천공항"
+  },
+  {
+    "id": "KE907",
+    "airline": "대한항공",
+    "time": "10:40",
+    "destination": "LHR",
+    "terminal": "T2",
+    "weekdays": ["N", "Y", "N", "N", "Y", "N", "Y"],
+    "period": "2024.12.20~2024.12.24",
+    "start": "인천공항"
+  },
+  {
+    "id": "KE907",
+    "airline": "대한항공",
+    "time": "10:40",
+    "destination": "LHR",
+    "terminal": "T2",
+    "weekdays": ["Y", "N", "Y", "N", "N", "Y", "N"],
+    "period": "2024.12.21~2024.12.25",
+    "start": "인천공항"
+  },
+  {
+    "id": "VS5501",
+    "airline": "버진 애틀란틱항공",
+    "time": "10:40",
+    "destination": "LHR",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.12.26~2025.03.29",
+    "start": "인천공항"
+  },
+  {
+    "id": "CM8004",
+    "airline": "코파항공",
+    "time": "09:50",
+    "destination": "JFK",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.11.03~2025.03.08",
+    "start": "인천공항"
+  },
+  {
+    "id": "CM8004",
+    "airline": "코파항공",
+    "time": "09:50",
+    "destination": "JFK",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2025.03.09~2025.03.29"
+  },
+  {
+    "id": "DL7841",
+    "airline": "델타항공",
+    "time": "10:00",
+    "destination": "JFK",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.10.27~2025.03.29",
+    "start": "인천공항"
+  },
+  {
+    "id": "DL7843",
+    "airline": "델타항공",
+    "time": "19:30",
+    "destination": "JFK",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.11.03~2025.02.09",
+    "start": "인천공항"
+  },
+  {
+    "id": "KE081",
+    "airline": "대한항공",
+    "time": "10:00",
+    "destination": "JFK",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.10.27~2025.03.29",
+    "start": "인천공항"
+  },
+  {
+    "id": "OZ222",
+    "airline": "아시아나항공",
+    "time": "09:50",
+    "destination": "JFK",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.11.03~2025.03.08",
+    "start": "인천공항"
+  },
+
+
+
+  {
+    "id": "CM8004",
+    "airline": "코파항공",
+    "time": "09:50",
+    "destination": "JFK",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "N", "N", "Y", "Y", "Y"],
+    "period": "2024.11.03~2025.03.08",
+    "start": "인천공항"
+  },
+  {
+    "id": "CM8004",
+    "airline": "코파항공",
+    "time": "09:50",
+    "destination": "JFK",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "N", "Y", "Y", "Y"],
+    "period": "2025.03.09~2025.03.29",
+    "start": "인천공항"
+  },
+  {
+    "id": "DL7841",
+    "airline": "델타항공",
+    "time": "10:00",
+    "destination": "JFK",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "N", "N", "Y"],
+    "period": "2024.10.27~2025.03.29",
+    "start": "인천공항"
+  },
+  {
+    "id": "DL7843",
+    "airline": "델타항공",
+    "time": "19:30",
+    "destination": "JFK",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "N", "Y", "Y", "Y"],
+    "period": "2024.11.03~2025.02.09",
+    "start": "인천공항"
+  },
+  {
+    "id": "DL7843",
+    "airline": "델타항공",
+    "time": "19:30",
+    "destination": "JFK",
+    "terminal": "T2",
+    "weekdays": ["Y", "N", "Y", "N", "Y", "Y", "Y"],
+    "period": "2025.02.10~2025.03.05",
+    "start": "인천공항"
+  },
+  {
+    "id": "KE081",
+    "airline": "대한항공",
+    "time": "10:00",
+    "destination": "JFK",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.10.27~2025.03.29",
+    "start": "인천공항"
+  },
+  {
+    "id": "KE085",
+    "airline": "대한항공",
+    "time": "19:30",
+    "destination": "JFK",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "N", "N", "Y", "Y"],
+    "period": "2024.11.03~2025.02.09"
+  },
+  {
+    "id": "OZ222",
+    "airline": "아시아나항공",
+    "time": "09:50",
+    "destination": "JFK",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.11.03~2025.03.08",
+    "start": "인천공항"
+  },
+  {
+    "id": "UA7293",
+    "airline": "유나이티드항공",
+    "time": "09:50",
+    "destination": "JFK",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2025.03.09~2025.03.29",
+    "start": "인천공항"
+  },
+
+
+
+  {
+    "id": "7C1102",
+    "airline": "제주항공",
+    "time": "14:30",
+    "destination": "ICN",
+    "start": "NRT",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.10.27~2025.03.29"
+  },
+  {
+    "id": "7C1104",
+    "airline": "제주항공",
+    "time": "16:45",
+    "start": "NRT",
+    "destination": "ICN",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.10.27~2025.03.29"
+  },
+  {
+    "id": "7C1106",
+    "airline": "제주항공",
+    "time": "18:25",
+    "start": "NRT",
+    "destination": "ICN",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "N", "N", "Y", "Y", "N"],
+    "period": "2024.11.08~2025.03.29"
+  },
+  {
+    "id": "7C1108",
+    "airline": "제주항공",
+    "time": "21:05",
+    "start": "NRT",
+    "destination": "ICN",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.10.27~2024.12.21"
+  }
+,
+  {
+    "id": "7C1108",
+    "airline":"제주항공",
+    "time": "21:05",
+    "destination": "ICN",
+    "start": "NRT",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2025.01.01~2025.03.29"
+  },
+  {
+    "id": "7C1122",
+    "airline": "제주항공",
+    "time": "22:50",
+    "destination": "ICN",
+    "start": "NRT",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.10.27~2025.03.29"
+  },
+  {
+    "id": "AM6706",
+    "airline": "아에로멕시코",
+    "time": "19:50",
+    "destination": "ICN",
+    "start": "NRT",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.10.27~2025.03.29"
+  },
+  {
+    "id": "AM6707",
+    "airline": "아에로멕시코",
+    "time": "23:20",
+    "destination": "ICN",
+    "start": "NRT",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.10.27~2025.03.29"
+  },
+  {
+    "id": "AM6751",
+    "airline": "아에로멕시코",
+    "time": "12:00",
+    "destination": "ICN",
+    "start": "NRT",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.10.28~2025.03.30"
+  },
+  {
+    "id": "AM6754",
+    "airline": "아에로멕시코",
+    "time": "16:40",
+    "destination": "ICN",
+    "start": "NRT",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.11.27~2025.03.29"
+  },
+  {
+    "id": "BX163",
+    "airline": "\uc5d0\uc5b4\ubd80\uc0b0",
+    "time": "14:00",
+    "destination": "ICN",
+    "start": "NRT",
+    "terminal": "T1",
+    "weekdays": ["N", "Y", "Y", "Y", "N", "Y", "Y"],
+    "period": "2024.10.27~2025.03.29"
+  },
+  {
+    "id": "BX163",
+    "airline": "\uc5d0\uc5b4\ubd80\uc0b0",
+    "time": "14:00",
+    "destination": "ICN",
+    "start": "NRT",
+    "terminal": "T1",
+    "weekdays": ["Y", "N", "N", "N", "Y", "N", "N"],
+    "period": "2024.10.28~2025.03.28"
+  },
+  {
+    "id": "BX165",
+    "airline": "\uc5d0\uc5b4\ubd80\uc0b0",
+    "time": "22:05",
+    "destination": "ICN",
+    "start": "NRT",
+    "terminal": "T1",
+    "weekdays": ["Y", "N", "N", "Y", "Y", "N", "Y"],
+    "period": "2024.10.27~2025.03.28"
+  },
+  {
+    "id": "BX165",
+    "airline": "\uc5d0\uc5b4\ubd80\uc0b0",
+    "time": "22:05",
+    "destination": "ICN",
+    "start": "NRT",
+    "terminal": "T1",
+    "weekdays": ["N", "Y", "Y", "N", "N", "Y", "N"],
+    "period": "2024.10.29~2025.03.29"
+  },
+  {
+    "id": "KE908",
+    "airline": "대한항공",
+    "time": "16:15",
+    "start": "LHR",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["Y", "N", "Y", "N", "Y", "Y", "N"],
+    "period": "2024.12.14~2024.12.20"
+  },
+  {
+    "id": "KE908",
+    "airline": "대한항공",
+    "time": "16:15",
+    "start": "LHR",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["N", "Y", "N", "Y", "N", "N", "Y"],
+    "period": "2024.12.15~2024.12.19"
+  },
+  {
+    "id": "KE908",
+    "airline": "대한항공",
+    "time": "16:15",
+    "start": "LHR",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["Y", "N", "Y", "N", "N", "Y", "N"],
+    "period": "2024.12.21~2024.12.25"
+  },
+  {
+    "id": "KE908",
+    "airline": "대한항공",
+    "time": "16:15",
+    "start": "LHR",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["N", "Y", "N", "Y", "N", "N", "Y"],
+    "period": "2024.12.22~2024.12.26"
+  },
+  {
+    "id": "KE908",
+    "airline": "대한항공",
+    "time": "16:15",
+    "start": "LHR",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.12.27~2025.03.30"
+  },
+  {
+    "id": "OZ522",
+    "airline": "아시아나항공",
+    "time": "17:45",
+    "start": "LHR",
+    "destination": "ICN",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "N", "Y", "N", "Y", "Y"],
+    "period": "2024.10.28~2025.03.30"
+  },
+  {
+    "id": "VS5502",
+    "airline": "버진 애트란틱항공",
+    "time": "16:15",
+    "start": "LHR",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["Y", "N", "Y", "N", "Y", "Y", "N"],
+    "period": "2024.12.14~2024.12.20"
+  },
+  {
+    "id": "VS5502",
+    "airline": "버진 애트란틱항공",
+    "time": "16:15",
+    "start": "LHR",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["N", "Y", "N", "Y", "N", "N", "Y"],
+    "period": "2024.12.15~2024.12.19"
+  },
+  {
+    "id": "VS5502",
+    "airline": "버진 애트란틱항공",
+    "time": "16:15",
+    "start": "LHR",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["Y", "N", "Y", "N", "N", "Y", "N"],
+    "period": "2024.12.21~2024.12.25"
+  },
+  {
+    "id": "VS5502",
+    "airline": "버진 애트란틱항공",
+    "time": "16:15",
+    "start": "LHR",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["N", "Y", "N", "Y", "N", "N", "Y"],
+    "period": "2024.12.22~2024.12.26"
+  },
+  {
+    "id": "VS5502",
+    "airline": "버진 애트란틱항공",
+    "time": "16:15",
+    "start": "LHR",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.12.27~2025.03.30"
+  },
+  {
+    "id": "CM8005",
+    "airline": "코파항공",
+    "time": "17:00",
+    "start": "JFK",
+    "destination": "ICN",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.11.04~2025.03.09"
+  },
+  {
+    "id": "CM8005",
+    "airline": "코파항공",
+    "time": "17:00",
+    "start": "JFK",
+    "destination": "ICN",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2025.03.10~2025.03.30"
+  },
+  {
+    "id": "DL7842",
+    "airline": "델타항공",
+    "time": "17:45",
+    "start": "JFK",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.10.28~2025.03.30"
+  },
+  {
+    "id": "DL7844",
+    "airline": "델타항공",
+    "time": "06:30",
+    "start": "JFK",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.11.05~2025.02.11"
+  },
+  {
+    "id": "DL7844",
+    "airline": "델타항공",
+    "time": "06:30",
+    "start": "JFK",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "N", "Y", "N", "Y"],
+    "period": "2025.02.12~2025.03.07"
+  },
+  {
+    "id": "DL7844",
+    "airline": "델타항공",
+    "time": "06:30",
+    "start": "JFK",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["N", "N", "N", "Y", "N", "Y", "N"],
+    "period": "2025.02.13~2025.03.06"
+  },
+  {
+    "id": "DL7844",
+    "airline": "델타항공",
+    "time": "06:30",
+    "start": "JFK",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["Y", "N", "N", "N", "N", "Y", "Y"],
+    "period": "2025.03.08~2025.03.10"
+  },
+  {
+    "id": "DL7844",
+    "airline": "델타항공",
+    "time": "05:30",
+    "start": "JFK",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2025.03.11~2025.03.31"
+  },
+  {
+    "id": "KE082",
+    "airline": "대한항공",
+    "time": "17:45",
+    "start": "JFK",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.10.28~2025.03.30"
+  },
+  {
+    "id": "KE086",
+    "airline": "대한항공",
+    "time": "06:30",
+    "start": "JFK",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.11.05~2025.02.11"
+  },
+  {
+    "id": "KE086",
+    "airline": "대한항공",
+    "time": "06:30",
+    "start": "JFK",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "N", "Y", "N", "Y"],
+    "period": "2025.02.12~2025.03.07"
+  },
+  {
+    "id": "KE086",
+    "airline": "대한항공",
+    "time": "06:30",
+    "start": "JFK",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["N", "N", "N", "Y", "N", "Y", "N"],
+    "period": "2025.02.13~2025.03.06"
+  },
+  {
+    "id": "KE086",
+    "airline": "대한항공",
+    "time": "06:30",
+    "start": "JFK",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["Y", "N", "N", "N", "N", "Y", "Y"],
+    "period": "2025.03.08~2025.03.10"
+  },
+  {
+    "id": "KE086",
+    "airline": "대한항공",
+    "time": "05:30",
+    "start": "JFK",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2025.03.11~2025.03.31"
+  },
+  {
+    "id": "OZ221",
+    "airline": "아시아나항공",
+    "time": "17:00",
+    "start": "JFK",
+    "destination": "ICN",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.11.04~2025.03.09"
+  },
+  {
+    "id": "OZ221",
+    "airline": "아시아나항공",
+    "time": "17:00",
+    "start": "JFK",
+    "destination": "ICN",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2025.03.10~2025.03.30"
+  },
+  {
+    "id": "SQ5721",
+    "airline": "싱가포르항공",
+    "time": "17:00",
+    "start": "JFK",
+    "destination": "ICN",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2024.11.04~2025.03.09"
+  },
+  {
+    "id": "SQ5721",
+    "airline": "싱가포르항공",
+    "time": "17:00",
+    "start": "JFK",
+    "destination": "ICN",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2025.03.10~2025.03.30"
+  },
+
+
+
+  {
+    "id": "SQ5721",
+    "airline": "싱가포르항공",
+    "time": "17:00",
+    "start": "JFK",
+    "destination": "ICN",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "Y", "Y"],
+    "period": "2025.03.10~2025.03.30"
+  },
+  {
+    "id": "KE123",
+    "airline": "대한항공",
+    "time": "12:00",
+    "start": "NRT",
+    "destination": "JFK",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "N", "N"],
+    "period": "2025.02.15~2025.03.30"
+  },
+  {
+    "id": "BA3512",
+    "airline": "영국항공",
+    "time": "09:00",
+    "start": "LHR",
+    "destination": "ICN",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "N", "Y", "Y", "N", "N"],
+    "period": "2025.01.01~2025.06.01"
+  },
+  {
+    "id": "BA3512",
+    "airline": "영국항공",
+    "time": "09:00",
+    "start": "LHR",
+    "destination": "JFK",
+    "terminal": "T5",
+    "weekdays": ["Y", "Y", "N", "Y", "Y", "N", "N"],
+    "period": "2025.01.01~2025.06.01"
+  },
+  {
+    "id": "JL101",
+    "airline": "일본항공",
+    "time": "10:30",
+    "start": "NRT",
+    "destination": "LHR",
+    "terminal": "T2",
+    "weekdays": ["Y", "N", "Y", "N", "Y", "Y", "N"],
+    "period": "2025.02.01~2025.07.01"
+  },
+  {
+    "id": "AA200",
+    "airline": "아메리칸 항공",
+    "time": "15:00",
+    "start": "JFK",
+    "destination": "CDG",
+    "terminal": "T8",
+    "weekdays": ["Y", "Y", "Y", "N", "Y", "N", "Y"],
+    "period": "2025.03.01~2025.08.01"
+  },
+  {
+    "id": "AF156",
+    "airline": "에어프랑스",
+    "time": "16:45",
+    "start": "CDG",
+    "destination": "NRT",
+    "terminal": "T1",
+    "weekdays": ["N", "Y", "Y", "Y", "N", "Y", "Y"],
+    "period": "2025.01.15~2025.06.15"
+  },
+  {
+    "id": "SQ321",
+    "airline": "싱가포르항공",
+    "time": "19:20",
+    "start": "LHR",
+    "destination": "SIN",
+    "terminal": "T4",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "N", "N"],
+    "period": "2025.04.01~2025.10.01"
+  },
+  {
+    "id": "CX888",
+    "airline": "캐세이퍼시픽",
+    "time": "21:10",
+    "start": "HKG",
+    "destination": "JFK",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "N", "N", "Y", "Y", "N"],
+    "period": "2025.03.15~2025.09.15"
+  },
+  {
+    "id": "BA1001",
+    "airline": "영국항공",
+    "time": "08:00",
+    "start": "LHR",
+    "destination": "JFK",
+    "terminal": "T5",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "N", "N"],
+    "period": "2025.01.01~2025.06.01"
+  },
+  {
+    "id": "JL2001",
+    "airline": "일본항공",
+    "time": "09:30",
+    "start": "NRT",
+    "destination": "LHR",
+    "terminal": "T2",
+    "weekdays": ["Y", "N", "Y", "Y", "N", "Y", "Y"],
+    "period": "2025.02.01~2025.07.01"
+  },
+  {
+    "id": "AA3001",
+    "airline": "아메리칸 항공",
+    "time": "11:15",
+    "start": "JFK",
+    "destination": "NRT",
+    "terminal": "T8",
+    "weekdays": ["Y", "Y", "N", "Y", "Y", "N", "Y"],
+    "period": "2025.03.01~2025.08.01"
+  },
+  {
+    "id": "JL3002",
+    "airline": "일본항공",
+    "time": "13:00",
+    "start": "NRT",
+    "destination": "JFK",
+    "terminal": "T1",
+    "weekdays": ["N", "Y", "Y", "N", "Y", "Y", "N"],
+    "period": "2025.04.01~2025.09.01"
+  },
+  {
+    "id": "BA2002",
+    "airline": "영국항공",
+    "time": "14:45",
+    "start": "LHR",
+    "destination": "NRT",
+    "terminal": "T5",
+    "weekdays": ["Y", "Y", "Y", "N", "Y", "N", "Y"],
+    "period": "2025.05.01~2025.10.01"
+  },
+  {
+    "id": "AA2002",
+    "airline": "아메리칸 항공",
+    "time": "16:30",
+    "start": "JFK",
+    "destination": "LHR",
+    "terminal": "T8",
+    "weekdays": ["Y", "N", "Y", "Y", "N", "Y", "Y"],
+    "period": "2025.06.01~2025.12.01"
+  },
+  {
+    "id": "BA3003",
+    "airline": "영국항공",
+    "time": "18:00",
+    "start": "LHR",
+    "destination": "JFK",
+    "terminal": "T5",
+    "weekdays": ["Y", "Y", "N", "Y", "Y", "Y", "N"],
+    "period": "2025.01.01~2025.06.01"
+  },
+  {
+    "id": "JL4003",
+    "airline": "일본항공",
+    "time": "20:15",
+    "start": "NRT",
+    "destination": "LHR",
+    "terminal": "T2",
+    "weekdays": ["Y", "Y", "Y", "N", "N", "Y", "Y"],
+    "period": "2025.03.15~2025.08.15"
+  },
+  {
+    "id": "AA4004",
+    "airline": "아메리칸 항공",
+    "time": "22:45",
+    "start": "JFK",
+    "destination": "NRT",
+    "terminal": "T8",
+    "weekdays": ["Y", "N", "Y", "Y", "Y", "N", "N"],
+    "period": "2025.04.01~2025.09.01"
+  },
+  {
+    "id": "JL5005",
+    "airline": "일본항공",
+    "time": "23:30",
+    "start": "NRT",
+    "destination": "JFK",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "N", "Y", "N", "Y", "Y"],
+    "period": "2025.05.01~2025.10.01"
+  },
+  {
+    "id": "BA1001",
+    "airline": "영국항공",
+    "time": "08:00",
+    "start": "JFK",
+    "destination": "LHR",
+    "terminal": "T5",
+    "weekdays": ["Y", "Y", "Y", "Y", "Y", "N", "N"],
+    "period": "2025.01.01~2025.06.01"
+  },
+  {
+    "id": "AA2001",
+    "airline": "아메리칸 항공",
+    "time": "09:30",
+    "start": "JFK",
+    "destination": "LHR",
+    "terminal": "T8",
+    "weekdays": ["Y", "Y", "N", "Y", "Y", "Y", "N"],
+    "period": "2025.01.15~2025.07.01"
+  },
+  {
+    "id": "DL3001",
+    "airline": "델타항공",
+    "time": "11:15",
+    "start": "JFK",
+    "destination": "LHR",
+    "terminal": "T4",
+    "weekdays": ["Y", "N", "Y", "Y", "N", "Y", "Y"],
+    "period": "2025.02.01~2025.08.01"
+  },
+  {
+    "id": "VS4001",
+    "airline": "버진 애틀랜틱",
+    "time": "12:45",
+    "start": "JFK",
+    "destination": "LHR",
+    "terminal": "T4",
+    "weekdays": ["Y", "Y", "Y", "Y", "N", "N", "Y"],
+    "period": "2025.02.15~2025.08.15"
+  },
+  {
+    "id": "BA1002",
+    "airline": "영국항공",
+    "time": "14:00",
+    "start": "JFK",
+    "destination": "LHR",
+    "terminal": "T5",
+    "weekdays": ["N", "Y", "Y", "Y", "Y", "N", "Y"],
+    "period": "2025.03.01~2025.09.01"
+  },
+  {
+    "id": "AA2002",
+    "airline": "아메리칸 항공",
+    "time": "15:30",
+    "start": "JFK",
+    "destination": "LHR",
+    "terminal": "T8",
+    "weekdays": ["Y", "N", "Y", "Y", "Y", "N", "Y"],
+    "period": "2025.03.15~2025.09.15"
+  },
+  {
+    "id": "DL3002",
+    "airline": "델타항공",
+    "time": "17:45",
+    "start": "JFK",
+    "destination": "LHR",
+    "terminal": "T4",
+    "weekdays": ["Y", "Y", "Y", "N", "Y", "Y", "N"],
+    "period": "2025.04.01~2025.10.01"
+  },
+  {
+    "id": "VS4002",
+    "airline": "버진 애틀랜틱",
+    "time": "19:00",
+    "start": "JFK",
+    "destination": "LHR",
+    "terminal": "T4",
+    "weekdays": ["Y", "Y", "N", "Y", "N", "Y", "Y"],
+    "period": "2025.04.15~2025.10.15"
+  },
+  {
+    "id": "BA1003",
+    "airline": "영국항공",
+    "time": "21:15",
+    "start": "JFK",
+    "destination": "LHR",
+    "terminal": "T5",
+    "weekdays": ["Y", "Y", "Y", "N", "Y", "N", "Y"],
+    "period": "2025.05.01~2025.11.01"
+  },
+  {
+    "id": "AA2003",
+    "airline": "아메리칸 항공",
+    "time": "23:30",
+    "start": "JFK",
+    "destination": "LHR",
+    "terminal": "T8",
+    "weekdays": ["Y", "Y", "N", "Y", "Y", "N", "Y"],
+    "period": "2025.05.15~2025.11.15"
+  },
+  {
+    "id": "JL1001",
+    "airline": "일본항공",
+    "time": "07:30",
+    "start": "JFK",
+    "destination": "NRT",
+    "terminal": "T1",
+    "weekdays": ["Y", "Y", "Y", "N", "Y", "N", "Y"],
+    "period": "2025.01.01~2025.06.01"
+  },
+  {
+    "id": "AA3001",
+    "airline": "아메리칸 항공",
+    "time": "09:00",
+    "start": "JFK",
+    "destination": "NRT",
+    "terminal": "T8",
+    "weekdays": ["Y", "N", "Y", "Y", "N", "Y", "Y"],
+    "period": "2025.01.15~2025.07.15"
+  },
+  {
+    "id": "DL5001",
+    "airline": "델타항공",
+    "time": "10:45",
+    "start": "JFK",
+    "destination": "NRT",
+    "terminal": "T4",
+    "weekdays": ["Y", "Y", "N", "Y", "Y", "N", "N"],
+    "period": "2025.02.01~2025.08.01"
+  },
+  {
+    "id": "UA2001",
+    "airline": "유나이티드 항공",
+    "time": "12:00",
+    "start": "JFK",
+    "destination": "NRT",
+    "terminal": "T7",
+    "weekdays": ["Y", "N", "Y", "Y", "N", "Y", "Y"],
+    "period": "2025.03.01~2025.09.01"
+  },
+  {
+    "id": "JL1002",
+    "airline": "일본항공",
+    "time": "13:30",
+    "start": "JFK",
+    "destination": "NRT",
+    "terminal": "T1",
+    "weekdays": ["N", "Y", "Y", "Y", "Y", "N", "Y"],
+    "period": "2025.04.01~2025.10.01"
+  },
+  {
+    "id": "AA3002",
+    "airline": "아메리칸 항공",
+    "time": "15:00",
+    "start": "JFK",
+    "destination": "NRT",
+    "terminal": "T8",
+    "weekdays": ["Y", "Y", "N", "Y", "Y", "N", "Y"],
+    "period": "2025.05.01~2025.11.01"
+  },
+  {
+    "id": "DL5002",
+    "airline": "델타항공",
+    "time": "16:45",
+    "start": "JFK",
+    "destination": "NRT",
+    "terminal": "T4",
+    "weekdays": ["Y", "Y", "Y", "N", "N", "Y", "Y"],
+    "period": "2025.06.01~2025.12.01"
+  },
+  {
+    "id": "UA2002",
+    "airline": "유나이티드 항공",
+    "time": "18:00",
+    "start": "JFK",
+    "destination": "NRT",
+    "terminal": "T7",
+    "weekdays": ["Y", "Y", "N", "Y", "Y", "N", "N"],
+    "period": "2025.07.01~2025.12.15"
+  },
+  {
+    "id": "JL1003",
+    "airline": "일본항공",
+    "time": "20:15",
+    "start": "JFK",
+    "destination": "NRT",
+    "terminal": "T1",
+    "weekdays": ["Y", "N", "Y", "Y", "N", "Y", "Y"],
+    "period": "2025.08.01~2025.12.31"
+  },
+  {
+    "id": "AA3003",
+    "airline": "아메리칸 항공",
+    "time": "22:30",
+    "start": "JFK",
+    "destination": "NRT",
+    "terminal": "T8",
+    "weekdays": ["Y", "Y", "N", "Y", "Y", "N", "Y"],
+    "period": "2025.08.15~2026.01.01"
+  },
+  {
+    "id": "CZ6001",
+    "airline": "중국남방항공",
+    "time": "08:00",
+    "start": "JFK",
+    "destination": "CAN",
+    "terminal": "T4",
+    "weekdays": ["Y", "Y", "Y", "N", "Y", "N", "Y"],
+    "period": "2025.01.01~2025.06.01"
+  },
+  {
+    "id": "UA7001",
+    "airline": "유나이티드 항공",
+    "time": "09:30",
+    "start": "JFK",
+    "destination": "CAN",
+    "terminal": "T7",
+    "weekdays": ["Y", "Y", "N", "Y", "Y", "Y", "N"],
+    "period": "2025.01.15~2025.07.01"
+  },
+  {
+    "id": "CZ6002",
+    "airline": "중국남방항공",
+    "time": "11:15",
+    "start": "JFK",
+    "destination": "CAN",
+    "terminal": "T4",
+    "weekdays": ["Y", "N", "Y", "Y", "N", "Y", "Y"],
+    "period": "2025.02.01~2025.08.01"
+  },
+  {
+    "id": "AA8001",
+    "airline": "아메리칸 항공",
+    "time": "12:45",
+    "start": "JFK",
+    "destination": "CAN",
+    "terminal": "T8",
+    "weekdays": ["Y", "Y", "Y", "Y", "N", "N", "Y"],
+    "period": "2025.02.15~2025.08.15"
+  },
+  {
+    "id": "CZ6003",
+    "airline": "중국남방항공",
+    "time": "14:00",
+    "start": "JFK",
+    "destination": "CAN",
+    "terminal": "T4",
+    "weekdays": ["N", "Y", "Y", "Y", "Y", "N", "Y"],
+    "period": "2025.03.01~2025.09.01"
+  },
+  {
+    "id": "UA7002",
+    "airline": "유나이티드 항공",
+    "time": "15:30",
+    "start": "JFK",
+    "destination": "CAN",
+    "terminal": "T7",
+    "weekdays": ["Y", "N", "Y", "Y", "Y", "N", "Y"],
+    "period": "2025.03.15~2025.09.15"
+  },
+  {
+    "id": "AA8002",
+    "airline": "아메리칸 항공",
+    "time": "17:45",
+    "start": "JFK",
+    "destination": "CAN",
+    "terminal": "T8",
+    "weekdays": ["Y", "Y", "Y", "N", "Y", "Y", "N"],
+    "period": "2025.04.01~2025.10.01"
+  },
+  {
+    "id": "CZ6004",
+    "airline": "중국남방항공",
+    "time": "19:00",
+    "start": "JFK",
+    "destination": "CAN",
+    "terminal": "T4",
+    "weekdays": ["Y", "Y", "N", "Y", "N", "Y", "Y"],
+    "period": "2025.04.15~2025.10.15"
+  },
+  {
+    "id": "AA8003",
+    "airline": "아메리칸 항공",
+    "time": "21:15",
+    "start": "JFK",
+    "destination": "CAN",
+    "terminal": "T8",
+    "weekdays": ["Y", "Y", "Y", "N", "Y", "N", "Y"],
+    "period": "2025.05.01~2025.11.01"
+  },
+  {
+    "id": "UA7003",
+    "airline": "유나이티드 항공",
+    "time": "23:30",
+    "start": "JFK",
+    "destination": "CAN",
+    "terminal": "T7",
+    "weekdays": ["Y", "Y", "N", "Y", "Y", "N", "Y"],
+    "period": "2025.05.15~2025.11.15"
+  }
+]
